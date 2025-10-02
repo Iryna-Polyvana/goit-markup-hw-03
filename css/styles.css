@@ -60,6 +60,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 .logo-accent {
     color: #2e2f42;
@@ -73,7 +74,6 @@ body {
 .header-nav {
     display: flex;
     align-items: center;
-    gap: 76px;
 }
 .nav-list {
     display: flex;
@@ -152,11 +152,12 @@ body {
     position: absolute;
     width: 1px;
     height: 1px;
-    margin: -1ps;
-    border: 0: padding: 0;
+    margin: -1px;
+    border: 0;
+    padding: 0;
     white-space: nowrap;
-    clip-path: inset (100%);
-    clip: rect (0 0 0 0);
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
     overflow: hidden;
 }
 .benefits-section {
@@ -165,6 +166,7 @@ body {
 }
 .benefits-list {
     display: flex;
+    gap: 24px;
     
 }
 .benefits-item {
