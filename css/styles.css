@@ -18,7 +18,6 @@ a {
 }
 button {cursor: pointer;}
 body {
-    margin-top: 30px;
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;
     color: #434455;
@@ -67,9 +66,12 @@ body {
 .header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 72px;
 }
 .nav-list {
     display: inline-flex;
+    align-items: center;
     gap: 40px;
 }
 .nav-item {
@@ -89,6 +91,7 @@ body {
 .address-list {
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 .address-link {
     font-size: 16px;
